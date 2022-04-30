@@ -29,10 +29,10 @@ CHECK_DIRS=(
     ["v2ray-core"]="$HOME/.config/qv2ray/vcore"
     ["wallpapers"]="$HOME/Pictures/wallpapers"
     ["zsh-autosuggestions"]="$HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions"
-    ["dmenu"]="/opt/dmenu-distrotube-git"
-    ["dwm"]="/opt/dwm-distrotube-git"
-    ["dwmblocks"]="/opt/dwmblocks-distrotube-git"
-    ["st"]="/opt/st-distrotube-git"
+    ["dmenu"]="/opt/dmenu-distrotube"
+    ["dwm"]="/opt/dwm-distrotube"
+    ["dwmblocks"]="/opt/dwmblocks-distrotube"
+    ["st"]="/opt/st-distrotube"
     ["ranger"]="$HOME/.config/ranger"
 )
 
