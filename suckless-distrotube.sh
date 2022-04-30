@@ -3,7 +3,7 @@ install_suckless_distrotube () {
     if [[ $PACMAN_CONF != *"dt-arch-repo"* ]]; then
         echo "[dtos-core-repo]
 SigLevel = Optional DatabaseOptional
-Server = https://gitlab.com/dwt1/$repo/-/raw/main/$arch" | sudo tee -a /etc/pacman.conf
+Server = https://gitlab.com/dwt1/\$repo/-/raw/main/\$arch" | sudo tee -a /etc/pacman.conf
         echo "${BLUE}add dt-arch-repo success${RESET}"
     fi
     yes | sudo pacman -Syyu
