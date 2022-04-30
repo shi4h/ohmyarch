@@ -7,6 +7,7 @@ Server = https://gitlab.com/dwt1/\$repo/-/raw/main/\$arch" | sudo tee -a /etc/pa
         echo "${BLUE}add dt-arch-repo success${RESET}"
     fi
     yes | sudo pacman -Syyu
+    yes | sudo pacman-key --lsign-key C71486C31555B12E
 
     if !(check_dir_exist "dmenu"); then
         yes | sudo pacman -S dmenu-distrotube 
